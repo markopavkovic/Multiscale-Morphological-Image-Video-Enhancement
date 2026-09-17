@@ -56,6 +56,8 @@ Multiscale-Morphological-Enhancement/
 ├── requirements.txt            # Project dependencies
 └── README.md
 
+```
+
 ## 📊 Results & Visualizations
 
 ### 1. Real-time Video Enhancement (Traffic Sequence)
