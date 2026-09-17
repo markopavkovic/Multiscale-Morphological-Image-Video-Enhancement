@@ -89,5 +89,5 @@ Visual effects of varying the $\alpha$ gain factor on grayscale and color images
   <p float="left">
     <img src="Images/alfa01color.png" width="300" alt="Alfa 0.1 Color">
     <img src="Images/alfa1color.png" width="300" alt="Alfa 1 Color">
-    <img src="Images/alfa100.png" width="300" alt="Alfa 100 Color">
+    <img src="Images/alba100.png" width="300" alt="Alfa 100 Color">
   </p>
