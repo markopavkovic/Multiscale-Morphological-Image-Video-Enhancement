@@ -55,3 +55,39 @@ Multiscale-Morphological-Enhancement/
 │
 ├── requirements.txt            # Project dependencies
 └── README.md
+
+
+## 📊 Results & Visualizations
+
+### 1. Real-time Video Enhancement (Traffic Sequence)
+Comparison between the original video frame and the enhanced version using multiscale morphological top-hat filtering and HSV color space processing[cite: 1]:
+
+<table>
+  <tr>
+    <td align="center"><b>Original Video Frame</b></td>
+    <td align="center"><b>Enhanced Video Frame</b></td>
+  </tr>
+  <tr>
+    <td><img src="Images/video1.jpg" width="450" alt="Original Video"></td>
+    <td><img src="Images/video2.jpg" width="450" alt="Enhanced Video"></td>
+  </tr>
+</table>
+
+---
+
+### 2. Impact of Alpha ($\alpha$) Parameter Scaling
+Visual effects of varying the $\alpha$ gain factor on grayscale and color images:
+
+* **Grayscale Enhancement with different $\alpha$ values:**
+  <p float="left">
+    <img src="Images/alfa1.png" width="300" alt="Alfa 1">
+    <img src="Images/alfa3.png" width="300" alt="Alfa 3">
+    <img src="Images/alfa50.png" width="300" alt="Alfa 50">
+  </p>
+
+* **RGB Color Enhancement (Lena image):**
+  <p float="left">
+    <img src="Images/alfa01color.png" width="300" alt="Alfa 0.1 Color">
+    <img src="Images/alfa1color.png" width="300" alt="Alfa 1 Color">
+    <img src="Images/alfa100.png" width="300" alt="Alfa 100 Color">
+  </p>
