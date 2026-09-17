@@ -57,11 +57,10 @@ Multiscale-Morphological-Enhancement/
 └── README.md
 
 ```
-
 ## 📊 Results & Visualizations
 
 ### 1. Real-time Video Enhancement (Traffic Sequence)
-Comparison between the original video frame and the enhanced version using multiscale morphological top-hat filtering and HSV color space processing:
+Comparison between the original video frame and the enhanced version using multiscale morphological top-hat filtering and HSV color space processing[cite: 1]:
 
 <table>
   <tr>
@@ -86,7 +85,7 @@ Visual effects of varying the $\alpha$ gain factor on grayscale and color images
     <img src="Images/alfa50.png" width="300" alt="Alfa 50">
   </p>
 
-* **RGB Color Enhancement:**
+* **RGB Color Enhancement (Lena image):**
   <p float="left">
     <img src="Images/alfa01color.png" width="300" alt="Alfa 0.1 Color">
     <img src="Images/alfa1color.png" width="300" alt="Alfa 1 Color">
