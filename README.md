@@ -25,9 +25,9 @@ The core enhancement model relies on multiscale Top-Hat filtering combined with 
 
 $$f_{out} = f + \alpha \cdot \sum_{k} WTH_k(f) - \alpha \cdot \sum_{k} BTH_k(f)$$
 
-- **White Top-Hat (WTH):** Isolates bright details smaller than the structural element ($WTH(f) = f - (f \circ b)$)[cite: 1].
-- **Black Top-Hat (BTH):** Isolates dark details and crevices ($BTH(f) = (f \bullet b) - f$)[cite: 1].
-- **Gamma Correction:** Applied as a final step ($f_{out}^{0.7}$) to non-linearly map intensities, bringing out shadow details without blowing out highlights[cite: 1].
+- **White Top-Hat (WTH):** Isolates bright details smaller than the structural element[cite: 1].
+- **Black Top-Hat (BTH):** Isolates dark details and crevices[cite: 1].
+- **Gamma Correction:** Applied as a final step to non-linearly map intensities, bringing out shadow details without blowing out highlights[cite: 1].
 
 ---
 
